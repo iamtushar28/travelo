@@ -16,7 +16,7 @@ const Hero = () => {
     <section className='h-auto pb-6 w-full px-4 md:px-24 mt-16 md:mt-32 flex flex-col gap-36 md:gap-0 md:flex-row md:justify-between overflow-hidden md:overflow-visible'>
 
       {/* circle colour element */}
-      {/* <div className='h-72 w-72 absolute -top-20 -left-28 bg-pink-200 rounded-full blur-2xl'></div> */}
+      <div className='h-80 w-80 absolute -top-36 -left-32 md:-top-20 md:-left-28 -z-10 bg-pink-200 rounded-full blur-2xl'></div>
 
       {/* hero section 1 - title */}
       <div className='flex flex-col gap-6'>
