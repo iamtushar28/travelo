@@ -13,7 +13,7 @@ import { IoIosPlayCircle } from "react-icons/io"; //play icon
 
 const Hero = () => {
   return (
-    <section className='h-auto pb-6 w-full mt-16 md:mt-36 flex flex-col gap-36 md:gap-0 md:flex-row md:justify-between md:overflow-visible'>
+    <section className='px-4 md:px-24 h-auto pb-6 w-full mt-16 md:mt-36 flex flex-col gap-36 md:gap-0 md:flex-row md:justify-between md:overflow-visible'>
 
       {/* hero section 1 - title */}
       <div className='flex flex-col gap-6'>

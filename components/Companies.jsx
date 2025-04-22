@@ -8,7 +8,7 @@ const Companies = () => {
     return (
         <div className="py-16 overflow-hidden w-full h-fit">
 
-            <div className='scroll-left-infinite'>
+            <div className='flex scroll-left-infinite'>
                 {/* Duplicate everything for seamless scroll */}
                 {[...Array(2)].map((_, i) => (
                     <div key={i} className="flex gap-16 items-center px-8">

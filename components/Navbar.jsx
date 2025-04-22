@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5"; //menu icon
 
 const Navbar = () => {
     return (
-        <nav className='py-4 md:py-6 w-full flex justify-between items-center'>
+        <nav className='px-4 md:px-24 py-4 md:py-6 w-full flex justify-between items-center'>
 
             {/* logo */}
             <div className='flex gap-2 items-center'>

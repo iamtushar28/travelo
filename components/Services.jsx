@@ -6,7 +6,7 @@ import ServiceCard from './shared/ServiceCard'
 
 const Services = () => {
     return (
-        <div className='py-6'>
+        <div className='px-4 md:px-24 py-6'>
 
             {/* title */}
             <h4 className='text-[#F411CF] text-xl font-semibold tracking-widest'>SERVICES</h4>

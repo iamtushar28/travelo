@@ -6,7 +6,7 @@ import DestinationCard from './shared/DestinationCard';
 
 const Destinations = () => {
     return (
-        <div className='py-12'>
+        <div className='px-4 md:px-24 py-12'>
 
             {/* title section */}
             <div className='flex justify-between items-center'>
