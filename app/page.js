@@ -1,5 +1,6 @@
 import Companies from "@/components/Companies";
 import Destinations from "@/components/Destinations";
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Destinations />
       <TravelPoints />
+      <Features/>
     </>
   );
 }
