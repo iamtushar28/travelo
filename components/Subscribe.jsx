@@ -6,7 +6,7 @@ const Subscribe = () => {
         <div className='lg:px-24 py-6 flex justify-center items-center'>
 
             {/* subscription card */}
-            <div className='-z-10 w-full lg:w-[50rem] py-16 md:h-96 px-5 md:px-24 bg-[#F4F4F4] flex flex-col justify-center items-center lg:rounded-2xl'>
+            <div className='-z-10 w-full lg:w-[50rem] py-16 md:h-96 px-2 md:px-24 bg-[#F4F4F4] flex flex-col justify-center items-center lg:rounded-2xl'>
 
                 {/* title */}
                 <div className='w-full flex flex-col justify-center items-center text-center'>
@@ -23,10 +23,10 @@ const Subscribe = () => {
                     </div>
 
                     {/* input box */}
-                    <input type="text" placeholder='Your email' className='md:w-[36rem] h-16 px-20 placeholder:text-[#BDC3C7] bg-white rounded-2xl outline-none' />
+                    <input type="text" placeholder='Your email' className='w-full md:w-[36rem] h-16 px-20 placeholder:text-[#BDC3C7] bg-white rounded-2xl outline-none' />
 
                     {/* subscribe btn */}
-                    <button className='h-12 px-4 text-white rounded-2xl bg-[#872BFF] hover:bg-[#872bffe2] absolute z-10 right-3 md:right-4 top-2 cursor-pointer'>
+                    <button className='h-12 px-4 text-white rounded-2xl bg-[#872BFF] hover:bg-[#872bffe2] absolute z-10 right-4 top-2 cursor-pointer'>
                         Subscribe
                     </button>
 
