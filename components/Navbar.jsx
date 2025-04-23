@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5"; //menu icon
 
 const Navbar = () => {
     return (
-        <nav className='px-4 md:px-24 py-4 md:py-6 w-full flex justify-between items-center'>
+        <nav className='px-4 lg:px-24 py-4 lg:py-6 w-full flex justify-between items-center'>
 
             {/* logo */}
             <div className='flex gap-2 items-center'>
@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
 
             {/* nav links */}
-            <ul className='hidden md:flex gap-14'>
+            <ul className='hidden lg:flex gap-14'>
                 <li className='font-semibold capitalize'>Home</li>
                 <li className='font-semibold capitalize'>Discover</li>
                 <li className='font-semibold capitalize'>Special Deals</li>
@@ -22,7 +22,7 @@ const Navbar = () => {
             </ul>
 
             {/* login, signup button */}
-            <div className='hidden md:flex gap-4'>
+            <div className='hidden lg:flex gap-4'>
 
                 {/* login btn */}
                 <button className='font-semibold capitalize cursor-pointer'>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <button className='text-3xl block md:hidden'>
+            <button className='text-3xl block lg:hidden'>
                 <IoMenu />
             </button>
 

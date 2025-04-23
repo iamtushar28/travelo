@@ -9,12 +9,12 @@ import { BiSolidOffer } from "react-icons/bi"; //discount icon
 
 const Features = () => {
     return (
-        <div className='px-4 md:px-24 md:pt-20 pt-8 pb-20 flex flex-col md:flex-row md:justify-between relative overflow-hidden'>
+        <div className='px-4 lg:px-24 lg:pt-20 pt-8 pb-20 flex flex-col md:flex-row md:justify-between relative overflow-hidden'>
             {/* title */}
             <div>
                 <h4 className='text-[#F411CF] text-xl font-semibold tracking-widest'>KEY FEATURES</h4>
                 <h2 className='text-4xl font-semibold mt-4'>We offer best services</h2>
-                <p className='text-[#A8A8A8] text-sm md:w-96 mt-5'>Hay! Travelo there to help you find your dream holiday. Easy you just find where you want to go and buy the ticket.</p>
+                <p className='text-[#A8A8A8] text-sm lg:w-96 mt-5'>Hay! Travelo there to help you find your dream holiday. Easy you just find where you want to go and buy the ticket.</p>
 
                 {/* features section */}
                 <div className='mt-10 flex flex-col gap-8'>
@@ -57,16 +57,16 @@ const Features = () => {
             </div>
 
             {/* visuals section */}
-            <div className='mt-12 md:mt-0 overflow-x-hidden md:overflow-visible'>
+            <div className='mt-12 lg:mt-0 overflow-x-hidden lg:overflow-visible'>
 
-                <Image src={Pattern} alt='Pattern image' className='h-64 w-fit ml-20 md:ml-0 -mb-48' />
-                <Image src={BuildingImage} alt='building image' className='h-72 w-64 md:-ml-28' />
-                <Image src={DubaiImage} alt='Dubai image' className='h-72 w-64 -mt-28 ml-20 md:ml-0' />
+                <Image src={Pattern} alt='Pattern image' className='h-64 w-fit ml-20 lg:ml-0 -mb-48' />
+                <Image src={BuildingImage} alt='building image' className='h-72 w-64 lg:-ml-28' />
+                <Image src={DubaiImage} alt='Dubai image' className='h-72 w-64 -mt-28 ml-20 lg:ml-0' />
 
             </div>
 
             {/* blur col0ur visula */}
-            <div className='h-64 w-64 bg-[#D9952F] blur-3xl rounded-full absolute -z-10 -bottom-36 md:-bottom-28 -right-28'>
+            <div className='h-64 w-64 bg-[#D9952F] blur-3xl rounded-full absolute -z-10 -bottom-36 lg:-bottom-28 -right-28'>
 
             </div>
 

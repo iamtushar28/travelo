@@ -6,7 +6,7 @@ import DestinationCard from './shared/DestinationCard';
 
 const Destinations = () => {
     return (
-        <div className='px-4 md:px-24 py-12'>
+        <div className='px-4 lg:px-24 py-12'>
 
             {/* title section */}
             <div className='flex justify-between items-center'>
@@ -18,7 +18,7 @@ const Destinations = () => {
                 </div>
 
                 {/* forword, backword buttons */}
-                <div className='mt-8 md:flex gap-4 items-center hidden'>
+                <div className='mt-8 lg:flex gap-4 items-center hidden'>
 
                     {/* back btn */}
                     <button className='h-12 w-12 border text-xl text-[#872BFF] hover:text-white hover:bg-[#872BFF] border-[#872BFF] rounded-full flex justify-center items-center cursor-pointer transition-all duration-200'>
@@ -34,7 +34,7 @@ const Destinations = () => {
             </div>
 
             {/* cards section */}
-            <div className='mt-10 flex flex-wrap justify-center gap-12 md:gap-20'>
+            <div className='mt-10 flex flex-wrap justify-center gap-12 lg:gap-20'>
 
                 <DestinationCard coverImage={Hills} name={"Indonesia"} title={"Pandawa Beach, Bali Island"} price={"90,000"} rating={"4.9"} />
                 <DestinationCard coverImage={Hills} name={"Indonesia"} title={"Pandawa Beach, Bali Island"} price={"90,000"} rating={"4.9"} />

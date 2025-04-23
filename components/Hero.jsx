@@ -13,7 +13,7 @@ import { IoIosPlayCircle } from "react-icons/io"; //play icon
 
 const Hero = () => {
   return (
-    <section className='px-4 md:px-24 h-auto pb-6 w-full mt-16 md:mt-36 flex flex-col gap-36 md:gap-0 md:flex-row md:justify-between md:overflow-visible'>
+    <section className='px-4 lg:px-24 h-auto pb-6 w-full mt-16 md:mt-36 flex flex-col gap-36 md:gap-0 md:flex-row lg:justify-between lg:overflow-visible'>
 
       {/* hero section 1 - title */}
       <div className='flex flex-col gap-6'>
@@ -25,14 +25,14 @@ const Hero = () => {
         </button>
 
         {/* heading */}
-        <h2 className='text-5xl md:text-6xl font-bold'>
+        <h2 className='text-4xl lg:text-6xl font-bold'>
           From <br />
           Southeast Asia <br />
           <span className='text-[#F411CF]'>to the World.</span>
         </h2>
 
         {/* discreption */}
-        <p className='text-zinc-400 text-sm'>Stay updated with travel tips, recommendations, and latest <br className='hidden md:block' /> promos.</p>
+        <p className='text-zinc-400 text-sm'>Stay updated with travel tips, recommendations, and latest <br className='hidden lg:block' /> promos.</p>
 
         {/* get start, watch video btn */}
         <div className='flex gap-4'>
@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
 
       {/* hero section 2 - visual images */}
-      <div className='flex justify-center gap-6 md:gap-8'>
+      <div className='flex justify-center gap-6 lg:gap-8'>
 
         <div className='flex flex-col gap-8 relative'>
           {/* sea beach image */}
@@ -63,7 +63,7 @@ const Hero = () => {
 
           {/* vector 1 */}
           <Image src={Vector1} alt='Vector1' height={200} className='absolute -top-16 -left-12 -z-10' />
-          <Image src={Aeroplane1} alt='Aeroplane1' height={40} className='absolute -top-[5.4rem] md:-top-22 left-16 md:left-28' />
+          <Image src={Aeroplane1} alt='Aeroplane1' height={40} className='absolute -top-[4.8rem] lg:-top-22 left-16 lg:left-28' />
 
         </div>
 
@@ -86,8 +86,8 @@ const Hero = () => {
           </button>
 
           {/* vector 1 */}
-          <Image src={Vector2} alt='Vector2' height={200} className='hidden md:block absolute top-[19rem] -right-12 -z-10' />
-          <Image src={Aeroplane2} alt='Aeroplane2' height={40} className='hidden md:block absolute top-[17rem] -right-6' />
+          <Image src={Vector2} alt='Vector2' height={200} className='hidden lg:block absolute top-[19rem] -right-12 -z-10' />
+          <Image src={Aeroplane2} alt='Aeroplane2' height={40} className='hidden lg:block absolute top-[17rem] -right-6' />
 
         </div>
 

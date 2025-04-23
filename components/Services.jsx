@@ -6,14 +6,14 @@ import ServiceCard from './shared/ServiceCard'
 
 const Services = () => {
     return (
-        <div className='px-4 md:px-24 py-6'>
+        <div className='px-4 lg:px-24 py-6'>
 
             {/* title */}
             <h4 className='text-[#F411CF] text-xl font-semibold tracking-widest'>SERVICES</h4>
             <h2 className='text-4xl font-semibold mt-4'>Why book using Travelo</h2>
 
             {/* service cards section */}
-            <div className='mt-10 flex flex-wrap justify-center gap-12 md:gap-20'>
+            <div className='mt-10 flex flex-wrap justify-center gap-12 lg:gap-20'>
 
                 <ServiceCard title={'All You Need'} discreption={'From flights, stays, to sights, just count on our complete products.'} logoImage={Bag} />
                 <ServiceCard title={'Flexible Booking'} discreption={'From flights, stays, to sights, just count on our complete products.'} logoImage={Book} />
