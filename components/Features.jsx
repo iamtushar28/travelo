@@ -9,7 +9,7 @@ import { BiSolidOffer } from "react-icons/bi"; //discount icon
 
 const Features = () => {
     return (
-        <div className='px-4 lg:px-24 lg:pt-20 pt-8 pb-20 flex flex-col md:flex-row md:justify-between relative overflow-hidden'>
+        <div className='px-4 lg:px-24 lg:pt-20 pt-8 pb-20 flex flex-col md:flex-row md:justify-between'>
             {/* title */}
             <div>
                 <h4 className='text-[#F411CF] text-xl font-semibold tracking-widest'>KEY FEATURES</h4>
@@ -62,11 +62,6 @@ const Features = () => {
                 <Image src={Pattern} alt='Pattern image' className='h-64 w-fit ml-20 lg:ml-0 -mb-48' />
                 <Image src={BuildingImage} alt='building image' className='h-72 w-64 lg:-ml-28' />
                 <Image src={DubaiImage} alt='Dubai image' className='h-72 w-64 -mt-28 ml-20 lg:ml-0' />
-
-            </div>
-
-            {/* blur col0ur visula */}
-            <div className='h-64 w-64 bg-[#D9952F] blur-3xl rounded-full absolute -z-10 -bottom-36 lg:-bottom-28 -right-28'>
 
             </div>
 

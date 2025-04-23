@@ -63,7 +63,7 @@ const Hero = () => {
 
           {/* vector 1 */}
           <Image src={Vector1} alt='Vector1' height={200} className='absolute -top-16 -left-12 -z-10' />
-          <Image src={Aeroplane1} alt='Aeroplane1' height={40} className='absolute -top-[4.8rem] lg:-top-22 left-16 lg:left-28' />
+          <Image src={Aeroplane1} alt='Aeroplane1' height={40} className='absolute -top-[5.4rem] md:-top-[4.8rem] lg:-top-22 left-16 lg:left-28' />
 
         </div>
 
