@@ -15,10 +15,10 @@ const Subscribe = () => {
                 </div>
 
                 {/* email input box */}
-                <div className='relative mt-10'>
+                <div className='relative mt-10 px-2'>
 
                     {/* email icon */}
-                    <div className='text-2xl h-16 w-16 bg-white text-[#BDC3C7] flex justify-center items-center rounded-l-2xl absolute left-0 top-0 bottom-0'>
+                    <div className='text-2xl h-16 w-16 bg-white text-[#BDC3C7] flex justify-center items-center rounded-l-2xl absolute left-3 md:left-0 top-0 bottom-0'>
                         <MdEmail />
                     </div>
 
@@ -26,7 +26,7 @@ const Subscribe = () => {
                     <input type="text" placeholder='Your email' className='md:w-[36rem] h-16 px-20 placeholder:text-[#BDC3C7] bg-white rounded-2xl outline-none' />
 
                     {/* subscribe btn */}
-                    <button className='h-12 px-4 text-white rounded-2xl bg-[#872BFF] hover:bg-[#872bffe2] absolute z-10 right-2 top-2 cursor-pointer'>
+                    <button className='h-12 px-4 text-white rounded-2xl bg-[#872BFF] hover:bg-[#872bffe2] absolute z-10 right-3 md:right-4 top-2 cursor-pointer'>
                         Subscribe
                     </button>
 
